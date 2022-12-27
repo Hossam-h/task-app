@@ -14,7 +14,7 @@ class FootballMatchController extends Controller
 
     public function __construct(FootballMatchInterface $footballMatchInterface)
     {
-            $this->footballMatchInterface = $footballMatchInterface;
+        $this->footballMatchInterface = $footballMatchInterface;
     }
     /**
      * Display a listing of the resource.

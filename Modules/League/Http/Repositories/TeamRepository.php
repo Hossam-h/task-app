@@ -23,6 +23,7 @@ Class TeamRepository  implements TeamInterface
     return view('league::pages.team.create');
 
    }
+   
    public function store($request)
    {
     $this->team::create([

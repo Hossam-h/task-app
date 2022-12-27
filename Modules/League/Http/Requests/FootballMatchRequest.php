@@ -13,9 +13,6 @@ class FootballMatchRequest extends FormRequest
      */
     public function rules()
     {
-        
-        
-        
         return [
             'f_team_id'    =>'required|exists:teams,id',
             's_team_id'    =>'required|exists:teams,id|different:f_team_id',
